@@ -1,0 +1,72 @@
+# Dépendances
+/node_modules/
+node_modules/
+dbData/
+server/public/
+# Dossiers de logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environnement
+.env
+.env.local
+.env.test
+.env.production
+
+# Dossiers de build
+/dist/
+/build/
+/out/
+
+# Cachés et fichiers temporaires
+.DS_Store
+Thumbs.db
+logs/
+*.log
+
+# IDE et éditeurs
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sw?
+
+# OS
+*.bak
+*.tmp
+
+# Tests
+/coverage/
+
+# Optional npm cache directory
+.npm/
+
+# Optional eslint cache
+.eslintcache
+
+# Optional prettier cache
+.prettiercache
+
+# Next.js
+.next/
+
+# Nuxt.js
+.nuxt/
+
+# Gatsby
+.cache/
+
+# TypeScript
+*.tsbuildinfo
+
+# Yarn v2+
+.yarn/cache/
+/.yarn/unplugged/
+/.yarn/build-state.yml
+.yarn/install-state.gz
+
+# pnpm
+.pnp.*
+.env

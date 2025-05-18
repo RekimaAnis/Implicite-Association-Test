@@ -1,0 +1,33 @@
+image: node:18
+
+stages:
+  - install
+  - test
+  - deploy
+
+cache:
+  paths:
+    - server/node_modules/
+    - test/node_modules/
+
+# Étape d'installation des dépendances
+install:
+  stage: install
+  script:
+    - cd server && npm install && cd ..
+    - cd test && npm install
+
+# Étape de test
+test:
+  stage: test
+  script:
+    - cd test
+    - npm run test
+
+# Étape de déploiement 
+deploy:
+  stage: deploy
+  only:
+    - main
+  script:
+    - echo "Déploiement ici (via SSH ou autre)"
