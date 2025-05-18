@@ -1,0 +1,58 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e6ecf2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  h2 {
+    color: rgb(55, 56, 126); 
+    margin-bottom: 20px;
+  }
+  
+  form {
+    background: linear-gradient(to bottom right, #a3c5f7, #dce9f9); /* même dégradé que le header */
+    padding: 40px 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    width: 320px;
+    border: 2px solid #3a4a8b;
+    text-align: center;
+  }
+  
+  input[type="text"],
+  input[type="password"] {
+    width: 90%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #3a4a8b;
+    border-radius: 5px;
+    font-size: 15px;
+  }
+  
+  button {
+    width: 100%;
+    padding: 12px;
+    background-color: #003366;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  button:hover {
+    background-color: #005599;
+  }
+  
+  #message {
+    color: red;
+    margin-top: 15px;
+  }
+  
